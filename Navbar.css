@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    display: flex;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    justify-content:center;
+    width:100%;
+    top: 0;
+    left: 0;
+}
+ul li{
+    padding: 30px;
+    list-style-type: none;
+    text-align:center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+}
+ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: rgb(49, 48, 48);
+}
